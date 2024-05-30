@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+h1 {
+    text-align: center;
+    color:rgb(0, 183, 83);
+    background-color: rgba(142, 255, 200, 0.447);
+    border-radius: 20px;
+}
+
+#addList {
+    display:block;
+    width:20%;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(255, 119, 0);
+}
+#addList:hover {
+    background-color: rgb(254, 157, 72);
+ }
+
+#grid-seznamy {
+    display: grid;
+    gap: 10px;
+}
+
+.seznam {
+    padding: 10px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 15px;
+}
+
+.showTaskInput {
+    display:block;
+    width: 20%;
+    min-width: 90px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(51, 0, 147);
+}
+
+.showTaskInput:hover {
+    background-color: rgb(77, 77, 249);
+ }
+
+.input1 {
+    display: none;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+
+.taskInput {
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.dateInput {
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.submitTask {
+    display:inline-block;
+    width: 5%;
+    min-width: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(255, 119, 0);
+    text-align: center;
+}
+
+.submitTask:hover {
+    background-color: rgb(254, 157, 72);
+ }
+
+span {
+    float: right;
+}
+
+.seznamHeadingInput {
+    width: 98%;
+    height: 20px;
+    border: 2px solid rgb(255, 119, 0);
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 199, 32);
+    border-radius: 10px;
+}
+
+.oneTask1 {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: rgb(198, 198, 255);
+    border-radius: 10px;
+}
